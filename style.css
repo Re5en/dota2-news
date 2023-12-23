@@ -1,0 +1,114 @@
+@import url(https://fonts.google.com/specimen/Afacad)
+*,*:before,*:after {
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff ;
+
+}
+
+header{
+    height: 72px;
+    align-items: center;
+    padding: 0 20%;
+    justify-content: space-between;
+}
+
+header a{
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: 60px;
+    padding-left: 65px;
+    padding-right:60px;
+    padding-top:60px;
+}
+
+.Znak{
+    padding-top:25px;
+}
+
+.logo {
+    padding-right:50px;
+}
+
+
+.wwwww{
+    margin-bottom: 40px;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-top: 1px solid #000000;
+
+}
+.zxc{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.news{
+    display: flex;
+    justify-content: center;
+}
+.text h1
+.text p
+.text a{
+    text-align: center;
+}
+.ima{
+    border-radius: 6px;
+}
+
+.button{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 6px;
+    display: flex;
+    justify-content:center;
+
+}
+.button:hover {
+    background-color:gray;
+
+
+}
+.ft{
+    display: flex;
+
+    justify-content:space-between;
+
+
+}
+.twitch{
+    color: red;
+}
+.nws-image {
+    display: flex;
+    justify-content:center;
+}
+.nws-title{
+    display: flex;
+    justify-content:center;
+}
+.nws-desc {
+    display: flex;
+    justify-content:center;
+}
+.nwss{
+    background-color: gray;
+    width: 33%;
+}
+.nws-holder{
+    display:flex;
+    justify-content:space-between;
+
+}
