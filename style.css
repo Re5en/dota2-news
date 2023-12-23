@@ -55,6 +55,7 @@ header a{
 .news{
     display: flex;
     justify-content: center;
+    
 }
 .text h1
 .text p
@@ -71,7 +72,6 @@ header a{
     background-color: black;
     text-decoration: none;
     padding: 12px 32px;
-    border-radius: 6px;
     display: flex;
     justify-content:center;
 
@@ -94,6 +94,7 @@ header a{
 .nws-image {
     display: flex;
     justify-content:center;
+    
 }
 .nws-title{
     display: flex;
@@ -103,12 +104,18 @@ header a{
     display: flex;
     justify-content:center;
 }
-.nwss{
-    background-color: gray;
-    width: 33%;
-}
+
 .nws-holder{
     display:flex;
     justify-content:space-between;
 
+}
+.nws{
+    box-shadow: 10px 10px 40px 20px;
+    width: 33%;
+    margin-right: 200px;
+}
+.weq{
+    display:flex;
+    justify-content:space-between;
 }
