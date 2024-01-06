@@ -118,6 +118,8 @@ header a{
 }
 .meme{
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 .zxt{
     margin-top: 100px;
