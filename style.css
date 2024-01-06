@@ -103,8 +103,6 @@ header a{
 .nws-desc {
     display: flex;
     justify-content:center;
-    width: 412px; 
-    height: 50px;
 }
 
 .nws-holder{
@@ -114,8 +112,8 @@ header a{
 }
 .nws{
     box-shadow: 10px 10px 40px 20px;
-    width: 33%;
     margin-right: 200px;
+    width: 412px; 
 }
 .weq{
     display:flex;
