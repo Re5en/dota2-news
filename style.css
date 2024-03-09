@@ -1,0 +1,225 @@
+/* Общие стили */
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #1E1E1E;
+}
+.container{
+    margin-left: 126px;
+}
+.header{
+    background-color: #000000;
+}
+.header-line{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-item{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 25px;
+    transition: color 0.3s linear;
+    justify-content: space-around;
+}
+.nav-item:hover{
+    color:gray
+}
+.search{
+    margin-left: 750px;
+    margin-right: 15px;
+}
+.title-image{
+    max-width: 100%;
+    height: auto;
+}
+.nws-title{
+    display: flex;
+    justify-content: center;
+}
+.title1{
+    color: #ffffff;
+    margin-left: 146px;
+}
+.card-image{
+    display: flex;
+    margin-right: 170px;
+    border-radius: 10px;
+    border: 5px #989292 solid;
+}
+.card-holder{
+    display: flex;
+}
+.title-image{
+    border-radius: 10px;
+    border: 5px #75737371 solid;
+    max-width: 100%;
+    height: auto;  
+}
+.btn-a{
+    background-color: #FCAF17;
+    font-size: 25px;
+    padding: 7px 14px;
+    text-decoration: none;
+    color:#000000;
+    border-radius: 10px;
+    transition: background-color 0.3s linear;
+    display: flex;
+}
+.button{
+    margin-top: 70px;
+    display: flex;
+    margin-left: 500px;
+    
+}
+.btn-a:hover{
+    background-color: #8d6109;
+}
+.twitch-name{
+    color:white;
+    transition: color 0.3s linear;
+    text-decoration: none;
+    display: flex;
+    margin-left: 85px;
+}
+.twitch-name:hover{
+    color:rgba(156, 153, 153, 0.819); 
+}
+.tw-btn{
+    width:282px ;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:#989292 ;
+    transition: background-color 0.3s linear;  
+}
+.tw-btn:hover{
+    background-color:#696767 ;
+}
+.twitch-streamers{
+    margin-bottom: 100px;
+}
+.footer{
+    background-color:black;
+    padding: 40px 0px;
+    color:white;
+    display: flex;
+   
+}
+.brg-menu{
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .card{
+        display: column;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .card-holder {
+        flex-direction: column;
+    }
+    .button{
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-a{
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .title-nws{
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;          
+    }
+    .brg-menu{
+        display: block;
+    }
+    .nav,
+    .search,
+    .login{
+        display: none;
+    }
+    .header-line{
+        justify-content: space-between;
+    }
+    .card-image{
+        width:361px;
+        height:437px;
+    }
+    .tw-btn{
+        width: 370px;
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+    input{
+        max-width:80px
+    }
+    span{
+        font-size: 20px;
+    }
+    header, article{
+        flex-direction: column;
+        align-items: center;
+    }
+    main{
+        min-height: 50vh;
+    }
+    .card{
+
+        padding-bottom: 10px;
+        
+    }
+    footer{
+        max-width: 100%;
+        max-height: 25%;
+    }
+    .card-holder {
+        flex-direction: column;
+    }
+    .tw-btn{
+        width: 65%;
+    }
+    .twitch-name{
+        margin-right: 0px;
+        margin-left: 25px;
+    }
+    .title1{
+        margin: 0px;
+        display: block;
+    }
+    .btn-a{
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    input{
+        max-width: 100px;
+    }
+    main{
+        min-height:65vh;
+    }
+    .nws-holder {
+        flex-direction: column;
+    }
+} 
+@media (max-width:500px) {
+    .card-image{
+        width: 250px;
+        height: auto;
+    }
+    
+}  
